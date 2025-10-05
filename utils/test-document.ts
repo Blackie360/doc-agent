@@ -16,7 +16,7 @@ async function testDocumentAgent() {
     // console.log("---\n");
     console.log("📄 Test 1: List Files");
     const result1 = await documentAgent(
-      "change directory to /home/blackie/Documents/ and list the files in that directory"
+      "check the current directory and list the files in that directory"
     );
     console.log("Response:", result1.response);
     console.log("---\n");
